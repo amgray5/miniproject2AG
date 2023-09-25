@@ -4,3 +4,4 @@
 
 import pandas as pd
 
+data = pd.read_csv('artists.csv', index_col='Artist')
